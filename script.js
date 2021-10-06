@@ -77,6 +77,12 @@ function weatherDetails(info){
 }
 
 
+//reset button
+
+function resetIcon(){
+    document.getElementBylass("wrapper").reset();
+}
+
 // bg for 
 function buttonColorChange(BodyChange) {
     if (BodyChange.value === 'red') {
